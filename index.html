@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SmartStore AI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/main.css">
+</head>
+
+<body>
+
+<header>
+  <nav class="navbar">
+    <div class="logo">SmartStore AI</div>
+
+    <input 
+      id="searchInput" 
+      class="search-bar" 
+      placeholder="Search products..." 
+      autocomplete="off"
+    />
+     <button id="themeToggle" class="theme-btn">🌙</button>
+    <a href="cart.html" class="cart-link">
+      🛒
+      <span id="cartCount" class="cart-count">0</span>
+    </a>
+  </nav>
+</header>
+
+<main>
+     <section class="section">
+    <h2>Recommended For You</h2>
+    <div id="recommendContainer" class="product-grid"></div>
+  </section>
+
+   <section class="section">
+    <h2>Trending</h2>
+    <div id="trendingContainer" class="product-grid"></div>
+  </section>
+
+  <section class="section">
+    <h2>All Products</h2>
+    <div id="productContainer" class="product-grid"></div>
+  </section>
+</main>
+
+<script type="module" src="./main.js"></script>
+
+</body>
+</html>
