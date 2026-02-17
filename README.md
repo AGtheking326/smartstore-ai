@@ -1,5 +1,6 @@
 🛍 SmartStore AI
 
+🔗 **Live Demo:** [View Live Project](https://smartstore-ai.vercel.app/)
 An intelligent frontend e-commerce system built using HTML, CSS, and Vanilla JavaScript (ES6 Modules).
 The application simulates modern commerce features including smart search ranking, demand-based trending, product recommendations, persistent cart management, and dark mode support.
 
@@ -32,6 +33,9 @@ REST API (DummyJSON)
 LocalStorage (State Persistence)
 
 🧠 Project Architecture
+## 🧠 Project Architecture
+
+```
 smartstore-ai/
 │
 ├── index.html
@@ -43,10 +47,11 @@ smartstore-ai/
 ├── modules/
 │   ├── store.js        // Centralized state management
 │   ├── cart.js         // Cart business logic
-│   ├── ai.js           // Search, trending & recommendation logic
+│   └── ai.js           // Search, trending & recommendation logic
 │
 ├── main.js             // Homepage controller
 └── cartpage.js         // Cart page controller
+```
 
 
 📊 Core Functionalities
